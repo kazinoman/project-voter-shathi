@@ -12,16 +12,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
-<body class="flex items-center justify-center">
-    <header class="bg-white w-full ont-bangla ">
+<body class="font-bangla">
+    <header class="bg-white w-full font-bangla ">
         <div class="container  ">
             <div class="flex h-16 items-center justify-between">
-                <div class="flex-1 md:flex md:items-center md:gap-4">
-                    <a class="block text-teal-600" href="#">
-
+                <div class="flex items-center gap-4">
+                    <a class="text-teal-600" href="#">
                         <img src="./images/logo.svg" alt="Flowbite Logo" class="h-14 w-14">
                     </a>
-
                     <p class="font-bangla font-semibold text-lg">ভোটের সাথী</p>
                 </div>
 
@@ -29,8 +27,7 @@
                     <nav aria-label="Global" class="hidden md:block">
                         <ul class="flex items-center gap-6 text-sm">
                             <li>
-                                <a class="text-text-primary transition  font-bangla" href="#"> হোম
-                                </a>
+                                <a class="text-text-primary transition  font-bangla" href="#"> হোম </a>
                             </li>
 
                             <li>
@@ -49,18 +46,27 @@
                                 <a class="text-text-primary transition font-bangla" href="#"> ফলাফল </a>
                             </li>
 
+                            <li>
+                                <div class="flex flex-row items-center gap-0 border border-[#DEE7E6] p-1 rounded-full">
+                                    <div
+                                        class="relative inline-block text-left bg-[#1B1A34] text-white rounded-full text-sm py-1 px-3">
+                                        বাংলা
+                                    </div>
+                                    <div class="relative inline-block text-left py-1 px-3">ENG</div>
+                                </div>
+
+                            </li>
+
 
                         </ul>
                     </nav>
 
-                    <div class="flex items-center gap-4">
-                        <div class="sm:flex sm:gap-4">
-                            <a class="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm"
-                                href="#">
-                                Login
+                    <div class="flex items-center gap-4 cursor-pointer">
+                        <div class="flex flex-row gap-2 items-center justify-center cursor-pointer">
+                            <img src="./images/login_icon.svg" alt="asdf" class="h-6 w-6" />
+                            <a class="rounded-md  text-sm font-medium text-text-primary " href="#">
+                                লগইন করুন
                             </a>
-
-
                         </div>
 
                         <div class="block md:hidden">
@@ -76,6 +82,605 @@
             </div>
         </div>
     </header>
+
+    <!-- ✅ Hero Section -->
+    <section class=" mx-auto px-4 py-12 bg-[#F9FAFB]">
+        <div class="container grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+            <!-- Left Content -->
+            <div class="">
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">আপনার ভোট, আপনার অধিকার</h2>
+                <p class="text-text-primary mb-6">
+                    প্রার্থীদের সাথে যোগাযোগ করুন, প্রশ্ন জিজ্ঞাসা করুন এবং সচেতন সিদ্ধান্ত নিন আমাদের গণতন্ত্রের
+                    ভবিষ্যৎ গঠনে আপনার মতামত
+                    গুরুত্বপূর্ণ
+                </p>
+
+                <div class="flex gap-2 items-center justify-start">
+                    <div class="flex flex-col items-center justify-center h-[106px] w-[106px]">
+                        <img src="./images//h-icon-1.svg" class="h-11 w-11 mb-2" />
+                        <p class="font-bold">১৫৬</p>
+                        <p>প্রার্থী</p>
+                    </div>
+
+                    <div class="flex flex-col items-center justify-center  h-[106px] w-[106px]">
+                        <div class="bg-[#E1EBFA] h-11 w-11 flex items-center justify-center rounded mb-2">
+                            <img src="./images//h-icon-2.svg" class="h-6 w-6" />
+                        </div>
+                        <p class="font-bold">১৩৮৭৮৭</p>
+                        <p>সক্রিয় ভোটার</p>
+                    </div>
+
+                    <div class="flex flex-col items-center justify-center ga h-[106px] w-[106px]">
+                        <img src="./images/h-icon-3.svg" class="h-11 w- mb-2" />
+                        <p class="font-bold">৭৮০৬০</p>
+                        <p>নতুন ভোটার</p>
+                    </div>
+                </div>
+
+                <div class="mt-10 flex items-center justify-start gap-4">
+                    <button
+                        class="px-6 py-3 bg-primary-100 text-primary-light border border-primary-light rounded-lg shadow  transition">
+                        সকল প্রার্থী দেখুন
+                    </button>
+                    <button
+                        class="px-6 py-3 bg-primary-light text-white rounded-lg shadow hover:bg-teal-700 transition">
+                        সকল প্রার্থী দেখুন
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- Right Image -->
+            <div class="flex justify-end items-center h-[500px] max-h-[500px] py-4">
+                <img alt="Demo Image" src="./images/image1.png"
+                    class="w-[100%] lg:w-[80%] h-full max-h-[500px] object-cover rounded-lg shadow-lg" />
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="py-[100px] bg-[#fff]">
+        <div class="container">
+            <div class="mx-auto bg-white overflow-hidden">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+
+                    <div class="">
+                        <div class="relative">
+                            <img src="./images/dr.unus.svg" alt="Dr. Muhammad Yunus"
+                                class="w-[360px] h-[300px] rounded-lg">
+                        </div>
+                        <div class="text-center mt-4">
+                            <p class="text-sm text-gray-600 font-medium">মাননীয় প্রধান উপদেষ্টা</p>
+                            <p class="text-base font-semibold ">ড. মুহাম্মদ ইউনূস</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex-1  p-6 md:p-8 flex flex-col justify-center">
+                        <div class="relative">
+
+                            <div class="text-6xl text-teal-600 font-serif absolute -top-4 -left-2">“</div>
+
+                            <div class=" text-lg md:text-xl leading-relaxed text-primary-light pl-8 pr-4">
+                                <p class="text-4xl">আমাদের সরকারের একমাত্র উদ্দেশ্য একটি অবাধ, সুষ্ঠু ও শান্তিপূর্ণ
+                                    নির্বাচন
+                                    আয়োজন করা। যাতে প্রতিটি রাজনৈতিক দল তাদের
+                                    বক্তব্য জনগণের সামনে উপস্থাপন করতে পারে। আমাদের লক্ষ্য প্রতিটি নাগরিককে ভোটাধিকার
+                                    প্রয়োগের সুযোগ দেওয়া,...</p>
+
+
+                            </div>
+                            <span class="text-6xl text-teal-600 font-serif absolute right-36 bottom-1 ">„</span>
+
+
+                        </div>
+
+
+                        <div class="text-right mt-8 pr-4">
+                            <p class="text-sm text-gray-500">— প্রধান উপদেষ্টা</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-[100px] bg-[#F9FAFB]">
+        <div class="container">
+            <div class="flex flex-col items-center justify-center mb-12">
+                <p class="text-text-primary font-bold text-2xl">ভোটার সহায়তা টুলস</p>
+                <p class="text-text-primary text-base font-normal text-center">আপনার ভোট সংক্রান্ত সব তথ্য এক
+                    জায়গায়—প্রার্থী
+                    পরিচয়, ভোটকেন্দ্র,<br /> রেজিস্ট্রেশন ও প্রশ্ন করার
+                    সুবিধা</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <a href="#" class="rounded-xl p-4 shadow-sm shadow-indigo-100 border flex flex-col gap-7">
+                    <!-- icon -->
+                    <img src="./images/voter_tools_1.svg" class="h-[54px] w-[54px]" />
+
+                    <dl class="flex flex-col gap-2">
+                        <div>
+                            <dd class="font-medium">আপনার নিবন্ধন অবস্থা জানুন</dd>
+                        </div>
+                        <div>
+                            <dd class="text-xs text-gray-500">আপনার এলাকার প্রার্থীদের প্রোফাইল,<br /> ইশতেহার
+                                এবং
+                                অভিজ্ঞতা দেখুন।</dd>
+                        </div>
+                    </dl>
+
+                    <div class="flex items-center gap-8 text-xs">
+                        <button
+                            class="px-3 py-2 bg-primary-100 text-primary-light border border-primary-light rounded-lg shadow  transition">
+                            সকল প্রার্থী দেখুন
+                        </button>
+                        <button class="px-3 py-2  text-primary-200 rounded-lg">
+                            সকল প্রার্থী দেখুন
+                        </button>
+                    </div>
+
+                </a>
+                <a href="#" class="rounded-xl p-4 shadow-sm shadow-indigo-100 border flex flex-col gap-7">
+                    <!-- icon -->
+                    <img src="./images/voter_tools_2.svg" class="h-[54px] w-[54px]" />
+
+                    <dl class="flex flex-col gap-2">
+                        <div>
+                            <dd class="font-medium">আমি কোথায় ভোট দেব?</dd>
+                        </div>
+                        <div>
+                            <dd class="text-xs text-gray-500">আপনার এলাকার প্রার্থীদের প্রোফাইল,<br /> ইশতেহার
+                                এবং
+                                অভিজ্ঞতা দেখুন।</dd>
+                        </div>
+
+                    </dl>
+
+                    <div class="flex items-center gap-8 text-xs">
+                        <button
+                            class="px-3 py-2 bg-primary-100 text-primary-light border border-primary-light rounded-lg shadow  transition">
+                            কেন্দ্র খুঁজুন
+                        </button>
+                        <button class="px-3 py-2  text-primary-200 rounded-lg">
+                            সকল প্রার্থী দেখুন
+                        </button>
+                    </div>
+
+                </a>
+                <a href="#" class="rounded-xl p-4 shadow-sm shadow-indigo-100 border flex flex-col gap-7">
+                    <!-- icon -->
+                    <img src="./images/voter_tools_3.svg" class="h-[54px] w-[54px]" />
+
+                    <dl class="flex flex-col gap-2">
+                        <div>
+                            <dd class="font-medium">আপনার অধিকার জানুন</dd>
+                        </div>
+                        <div>
+                            <dd class="text-xs text-gray-500">আপনার এলাকার প্রার্থীদের প্রোফাইল,<br /> ইশতেহার
+                                এবং
+                                অভিজ্ঞতা দেখুন।</dd>
+                        </div>
+
+                    </dl>
+
+                    <div class="flex items-center gap-8 text-xs">
+                        <button
+                            class="px-3 py-2 bg-primary-light text-primary-100 border border-primary-light rounded-lg shadow  transition">
+                            অধিকার জানুন
+                        </button>
+
+                    </div>
+
+                </a>
+                <a href="#" class="rounded-xl p-4 shadow-sm shadow-indigo-100 border flex flex-col gap-7">
+                    <!-- icon -->
+                    <img src="./images/voter_tools_4.svg" class="h-[54px] w-[54px]" />
+
+                    <dl>
+                        <div>
+                            <dd class="font-medium">ভোটের সময়সূচি জানুন</dd>
+                        </div>
+                        <div>
+                            <dd class="text-xs text-gray-500">আপনার এলাকার প্রার্থীদের প্রোফাইল,<br /> ইশতেহার
+                                এবং
+                                অভিজ্ঞতা দেখুন।</dd>
+                        </div>
+
+                    </dl>
+
+                    <div class="flex items-center gap-8 text-xs">
+                        <button
+                            class="px-3 py-2 bg-primary-light text-primary-100 border border-primary-light rounded-lg shadow  transition"">
+                                ভোটের সময়সূচি জানুন
+                            </button>
+                        </div>
+
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class=" relative py-[100px] bg-[#3B4A49] bg-repeat">
+                            <div class="absolute inset-0 bg-repeat opacity-5"
+                                style="background-image: url(./images//Mask\ group.svg);">
+                            </div>
+                            <div class="relative container mx-auto text-white">
+                                <div class="text-center mb-12">
+                                    <h1 class="text-2xl md:text-3xl font-semibold mb-4">ভোটের দিন কী কী সঙ্গে নিতে হবে?
+                                    </h1>
+                                    <p class="text-gray-300 text-sm md:text-base">ভোট দেওয়ার দিন ভোটকেন্দ্রে যেতে নিচের
+                                        জিনিসগুলো সঙ্গে নিতে হবে —
+                                    </p>
+                                </div>
+
+                                <div class="grid md:grid-cols-2 gap-8 md:gap-12">
+                                    <div>
+                                        <h2 class="text-xl font-semibold mb-6">যা যা আনতে হবে</h2>
+                                        <div class="space-y-6">
+
+                                            <div class="flex items-start gap-3">
+                                                <div
+                                                    class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor"
+                                                        viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            stroke-width="2" d="M5 13l4 4L19 7">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <h3 class="font-medium mb-1">জাতীয় পরিচয়পত্র (NID Card)</h3>
+                                                    <p class="text-gray-300 text-sm leading-relaxed">যেই জাতীয়
+                                                        পরিচয়পত্র
+                                                        অনুযায়ী সঙ্গে নিবন্ধিত
+                                                        হবে এটা আনতে ভোট দিতে পারবেন না</p>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="flex items-start gap-3">
+                                                <div
+                                                    class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor"
+                                                        viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            stroke-width="2" d="M5 13l4 4L19 7">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <h3 class="font-medium mb-1">ভোটার স্লিপ (যদি নেওয়া হয়)</h3>
+                                                    <p class="text-gray-300 text-sm leading-relaxed">আগাম নির্বাচন কমিশন
+                                                        বা
+                                                        সংশ্লিষ্ট কর্তৃপক্ষ
+                                                        ভোটার স্লিপ বিতরণ করলে সেটি সঙ্গে নিতে হবে, এতে আপনার ভোটার
+                                                        নম্বর,
+                                                        নাম, ভোটকেন্দ্রের তথ্য
+                                                        থাকবে</p>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="flex items-start gap-3">
+                                                <div
+                                                    class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor"
+                                                        viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            stroke-width="2" d="M5 13l4 4L19 7">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <h3 class="font-medium mb-1">ভোটার রেজিস্ট্রি বা অন্য কোনো নিবন্ধন
+                                                        পত্র
+                                                        (যদি প্রয়োজন হয়)</h3>
+                                                    <p class="text-gray-300 text-sm leading-relaxed">কখনো কখনো বিশেষ
+                                                        ক্ষেত্রে অতিরিক্ত নিবন্ধনা
+                                                        নেওয়া হয়, সেটি প্রয়োজনে আনতে হতে পারে</p>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="flex items-start gap-3">
+                                                <div
+                                                    class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor"
+                                                        viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            stroke-width="2" d="M5 13l4 4L19 7">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <h3 class="font-medium mb-1">বিশেষ প্রয়োজনীয় নথি (যদি কর্তৃপক্ষ
+                                                        থেকে
+                                                        আলাদা নোটিশ থাকে)</h3>
+                                                    <p class="text-gray-300 text-sm leading-relaxed">কোনো প্রাথমী
+                                                        ভোটারের
+                                                        ক্ষেত্রে বিশেষ নথি বা আইডি
+                                                        প্রয়োজন</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <h2 class="text-xl font-semibold mb-6">যা নেওয়ার দরকার নেই</h2>
+                                        <div class="space-y-6">
+                                            <div class="flex items-start gap-3">
+                                                <div
+                                                    class="w-6 h-6 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor"
+                                                        viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <h3 class="font-medium mb-1">পার্টি ডিজিটাল / মার্ক / স্টিকার</h3>
+                                                    <p class="text-gray-300 text-sm leading-relaxed">ভোটকেন্দ্রে গণ
+                                                        পোশাক
+                                                        যুক্ত ব্যাজসহ কোনো দলীয়
+                                                        না</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="flex items-start gap-3">
+                                                <div
+                                                    class="w-6 h-6 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor"
+                                                        viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <h3 class="font-medium mb-1">বড় ব্যাগ / ব্যাকপ্যাক</h3>
+                                                    <p class="text-gray-300 text-sm leading-relaxed">নিরাপত্তার কারণে
+                                                        বড়
+                                                        ব্যাগ, ব্যাকপ্যাক বা ভূমি
+                                                        আনা যাবে না</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="flex items-start gap-3">
+                                                <div
+                                                    class="w-6 h-6 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor"
+                                                        viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <h3 class="font-medium mb-1">অন্য কোনো ধাতুর যন্ত্র</h3>
+                                                    <p class="text-gray-300 text-sm leading-relaxed">ভোটকেন্দ্রে কোনো
+                                                        ধাতু,
+                                                        ছুরি, আগ্নি বা বিপজ্জনক
+                                                        জিনিস নিয়ে যাওয়া যাবে না</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="flex items-start gap-3">
+                                                <div
+                                                    class="w-6 h-6 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor"
+                                                        viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <h3 class="font-medium mb-1">ক্যামেরা, নিয়ন্ত্রণ বা এলার্ম সামগ্রী
+                                                    </h3>
+                                                    <p class="text-gray-300 text-sm leading-relaxed">প্রাইভেট প্রচারণা,
+                                                        ব্যানার, নিয়ন্ত্রণ বা
+                                                        এলার্ম সংক্রান্ত কোনো জিনিস আনা যাবে না</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    </section>
+
+    <section class="container py-[100px]">
+        <div class="text-center mb-12">
+            <h1 class="text-2xl md:text-3xl font-semibold mb-4">প্রশ্নোত্তর</h1>
+            <p class="text-primary-300 text-sm md:text-base">নির্বাচন সংক্রান্ত সাধারণ প্রশ্নের উত্তর এখানে পাবেন</p>
+        </div>
+        <div class="mx-auto ">
+            <div class="divide-y divide-gray-100 space-y-3">
+                <details class="group">
+                    <summary
+                        class=" bg-white p-3 rounded-lg flex cursor-pointer list-none items-center justify-between py-4 text-base font-medium text-secondary-900 group-open:text-primary-500">
+                        প্রথমবার ভোট দিতে গেলে আমার কী কী নিতে হবে?
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="block h-5 w-5 group-open:hidden">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="hidden h-5 w-5 group-open:block">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+                            </svg>
+                        </div>
+                    </summary>
+                    <div class="py-4 rounded-lg text-secondary-500 px-3 bg-white">This is the first item's accordion
+                        body.</div>
+                </details>
+                <details class="group">
+                    <summary
+                        class=" bg-white p-3 rounded-lg flex cursor-pointer list-none items-center justify-between py-4 text-base font-medium text-secondary-900 group-open:text-primary-500">
+                        ভোটকেন্দ্র কোথায় পাবো?
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="block h-5 w-5 group-open:hidden">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="hidden h-5 w-5 group-open:block">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+                            </svg>
+                        </div>
+                    </summary>
+                    <div class="py-4 rounded-lg text-secondary-500 px-3 bg-white">This is the first item's accordion
+                        body.</div>
+                </details>
+                <details class="group">
+                    <summary
+                        class=" bg-white p-3 rounded-lg flex cursor-pointer list-none items-center justify-between py-4 text-base font-medium text-secondary-900 group-open:text-primary-500">
+                        আমি কি কাউকে সঙ্গে নিয়ে ভোটকেন্দ্রে যেতে পারবো?
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="block h-5 w-5 group-open:hidden">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="hidden h-5 w-5 group-open:block">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+                            </svg>
+                        </div>
+                    </summary>
+                    <div class="py-4 rounded-lg text-secondary-500 px-3 bg-white">This is the first item's accordion
+                        body.</div>
+                </details>
+                <details class="group">
+                    <summary
+                        class=" bg-white p-3 rounded-lg flex cursor-pointer list-none items-center justify-between py-4 text-base font-medium text-secondary-900 group-open:text-primary-500">
+                        আমি ভোট দিতে জানি না, কীভাবে সাহায্য পাবো?
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="block h-5 w-5 group-open:hidden">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="hidden h-5 w-5 group-open:block">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+                            </svg>
+                        </div>
+                    </summary>
+                    <div class="py-4 rounded-lg text-secondary-500 px-3 bg-white text-primary-200">ভোটকেন্দ্রে
+                        দায়িত্বপ্রাপ্ত কর্মকর্তারা আপনাকে নিয়ম বুঝিয়ে দেবেন, কিন্তু তারা আপনার ভোট কাকে দেবেন তা জানবেন
+                        না। ভোট
+                        গোপনীয় থাকবে।</div>
+                </details>
+                <details class="group">
+                    <summary
+                        class=" bg-white p-3 rounded-lg flex cursor-pointer list-none items-center justify-between py-4 text-base font-medium text-secondary-900 group-open:text-primary-500">
+                        যদি ভোটের দিন আমার নাম তালিকায় না পাই, তাহলে কী হবে?
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="block h-5 w-5 group-open:hidden">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="hidden h-5 w-5 group-open:block">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+                            </svg>
+                        </div>
+                    </summary>
+                    <div class="py-4 rounded-lg text-secondary-500 px-3 bg-white">This is the first item's accordion
+                        body.</div>
+                </details>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-[#3B4A49] pt-4 sm:pt-6 lg:pt-8 text-white font-bangla">
+
+        <div class="pt-12 text-white">
+            <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+                <div class="mb-16 grid grid-cols-1 gap-12 lg:grid-cols-4">
+                    <!-- Left: Logo, description, social -->
+                    <div>
+                        <!-- logo - start -->
+                        <div class="mb-4 lg:-mt-2">
+                            <div class="flex items-center gap-4">
+                                <a class="text-teal-600" href="#">
+                                    <img src="./images/logo.svg" alt="Flowbite Logo" class="h-14 w-14">
+                                </a>
+                                <p class="font-bangla font-semibold text-lg">ভোটের সাথী</p>
+                            </div>
+                        </div>
+                        <!-- logo - end -->
+
+                        <p class="mb-6 sm:pr-8 font-bangla opacity-65">
+                            প্রার্থীদের সাথে যোগাযোগ করুন, প্রশ্ন জিজ্ঞাসা করুন এবং
+                            সচেতন সিদ্ধান্ত নিন আমাদের গণতন্ত্রের ভবিষ্যৎ গঠনে আপনার মতামত গুরুত্বপূর্ণ
+                        </p>
+
+                        <!-- social - start -->
+                        <div class="flex gap-4">
+                            <!-- your SVG icons here -->
+                        </div>
+                        <!-- social - end -->
+                    </div>
+
+                    <!-- Right: 3 Columns -->
+                    <div class="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- nav - start -->
+                        <div>
+                            <div class="mb-4 font-bold uppercase tracking-widest">হোম</div>
+                            <nav class="flex flex-col gap-1">
+                                <a href="#" class="transition duration-100 opacity-65 hover:opacity-100">প্রার্থীগণ</a>
+                                <a href="#" class="transition duration-100 opacity-65 hover:opacity-100">প্রশ্নোত্তর</a>
+                            </nav>
+                        </div>
+                        <!-- nav - end -->
+
+                        <!-- nav - start -->
+                        <div>
+                            <div class="mb-4 font-bold font-bangla text-base">ভোটার সহায়তা টুলস</div>
+                            <nav class="flex flex-col gap-1">
+                                <a href="#" class="transition duration-100 opacity-65 hover:opacity-100">আমার নিবন্ধন
+                                    অবস্থা</a>
+                                <a href="#" class="transition duration-100 opacity-65 hover:opacity-100">আমি কোথায় ভোট
+                                    দেব?</a>
+                                <a href="#" class="transition duration-100 opacity-65 hover:opacity-100">আপনার অধিকার
+                                    জানুন</a>
+                                <a href="#" class="transition duration-100 opacity-65 hover:opacity-100">ভোটের
+                                    সমস্যারতি</a>
+                            </nav>
+                        </div>
+                        <!-- nav - end -->
+
+                        <!-- nav - start -->
+                        <div>
+                            <div class="mb-4 font-bold font-bangla">যোগাযোগ</div>
+                            <p class="font-bangla opacity-65">
+                                তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ <br>
+                                আইসিটি টাওয়ার, আগারগাঁও, ঢাকা-১২০৭, বাংলাদেশ <br><br>
+                                ফোন: +৮৮-০২-৪১০২৪২২২ <br>
+                                ই-মেইল: admin.wing@ictd.gov.bd
+                            </p>
+                        </div>
+                        <!-- nav - end -->
+                    </div>
+                </div>
+
+
+                <div class="border-t py-8 text-center text-sm ">© 2021 - Present Flowrift. All rights
+                    reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
 
 
 </body>

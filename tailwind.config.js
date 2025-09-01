@@ -13,6 +13,9 @@ module.exports = {
           light: "#005F5F",
           DEFAULT: "#2563eb",
           dark: "#1e40af",
+          100: "#E7F3F3",
+          200: "#52515C",
+          300: "#16142C",
         },
         secondary: {
           light: "#fcd34d", // yellowish
@@ -48,8 +51,8 @@ module.exports = {
           lg: "944px",
           xl: "1200px",
 
-          "2xl": "1400px",
-          "3xl": "1600px",
+          "2xl": "1200px",
+          // "3xl": "1600px",
         },
       },
     },
