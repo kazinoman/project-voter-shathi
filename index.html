@@ -136,8 +136,6 @@
                     class="w-[100%] lg:w-[80%] h-full max-h-[500px] object-cover rounded-lg shadow-lg" />
             </div>
         </div>
-
-
     </section>
 
     <section class="py-[100px] bg-[#fff]">
@@ -163,7 +161,8 @@
                             <div class="text-6xl text-teal-600 font-serif absolute -top-4 -left-2">“</div>
 
                             <div class=" text-lg md:text-xl leading-relaxed text-primary-light pl-8 pr-4">
-                                <p class="text-4xl">আমাদের সরকারের একমাত্র উদ্দেশ্য একটি অবাধ, সুষ্ঠু ও শান্তিপূর্ণ
+                                <p class="text-base sm:text-xl md:text-3xl xl:text-4xl">আমাদের সরকারের একমাত্র উদ্দেশ্য
+                                    একটি অবাধ, সুষ্ঠু ও শান্তিপূর্ণ
                                     নির্বাচন
                                     আয়োজন করা। যাতে প্রতিটি রাজনৈতিক দল তাদের
                                     বক্তব্য জনগণের সামনে উপস্থাপন করতে পারে। আমাদের লক্ষ্য প্রতিটি নাগরিককে ভোটাধিকার
@@ -598,10 +597,10 @@
     <footer class="bg-[#3B4A49] pt-4 sm:pt-6 lg:pt-8 text-white font-bangla">
 
         <div class="pt-12 text-white">
-            <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-                <div class="mb-16 grid grid-cols-1 gap-12 lg:grid-cols-4">
+            <div class="container">
+                <div class="mb-10 grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-6 lg:gap-8">
                     <!-- Left: Logo, description, social -->
-                    <div>
+                    <div class="lg:col-span-2">
                         <!-- logo - start -->
                         <div class="mb-4 lg:-mt-2">
                             <div class="flex items-center gap-4">
@@ -614,23 +613,32 @@
                         <!-- logo - end -->
 
                         <p class="mb-6 sm:pr-8 font-bangla opacity-65">
-                            প্রার্থীদের সাথে যোগাযোগ করুন, প্রশ্ন জিজ্ঞাসা করুন এবং
-                            সচেতন সিদ্ধান্ত নিন আমাদের গণতন্ত্রের ভবিষ্যৎ গঠনে আপনার মতামত গুরুত্বপূর্ণ
+                            প্রার্থীদের সাথে যোগাযোগ করুন, প্রশ্ন জিজ্ঞাসা করুন এবং সচেতন সিদ্ধান্ত নিন।
+                            আমাদের গণতন্ত্রের ভবিষ্যৎ গঠনে আপনার মতামত গুরুত্বপূর্ণ।
                         </p>
 
                         <!-- social - start -->
                         <div class="flex gap-4">
-                            <!-- your SVG icons here -->
+                            <!-- Social Icons Here -->
                         </div>
                         <!-- social - end -->
                     </div>
 
-                    <!-- Right: 3 Columns -->
-                    <div class="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Right: Nav Columns -->
+                    <div class="lg:col-span-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <!-- nav - start -->
+                        <div>
+                            <!-- <div class="mb-4 font-bold uppercase tracking-widest">হোম</div>
+                            <nav class="flex flex-col gap-1 font-bangla">
+                                <a href="#" class="transition duration-100 opacity-65 hover:opacity-100">প্রার্থীগণ</a>
+                                <a href="#" class="transition duration-100 opacity-65 hover:opacity-100">প্রশ্নোত্তর</a>
+                            </nav> -->
+                        </div>
+                        <!-- nav - end -->
                         <!-- nav - start -->
                         <div>
                             <div class="mb-4 font-bold uppercase tracking-widest">হোম</div>
-                            <nav class="flex flex-col gap-1">
+                            <nav class="flex flex-col gap-1 font-bangla">
                                 <a href="#" class="transition duration-100 opacity-65 hover:opacity-100">প্রার্থীগণ</a>
                                 <a href="#" class="transition duration-100 opacity-65 hover:opacity-100">প্রশ্নোত্তর</a>
                             </nav>
@@ -640,7 +648,7 @@
                         <!-- nav - start -->
                         <div>
                             <div class="mb-4 font-bold font-bangla text-base">ভোটার সহায়তা টুলস</div>
-                            <nav class="flex flex-col gap-1">
+                            <nav class="flex flex-col gap-1 font-bangla">
                                 <a href="#" class="transition duration-100 opacity-65 hover:opacity-100">আমার নিবন্ধন
                                     অবস্থা</a>
                                 <a href="#" class="transition duration-100 opacity-65 hover:opacity-100">আমি কোথায় ভোট
@@ -656,7 +664,7 @@
                         <!-- nav - start -->
                         <div>
                             <div class="mb-4 font-bold font-bangla">যোগাযোগ</div>
-                            <p class="font-bangla opacity-65">
+                            <p class="font-bangla opacity-65 text-sm leading-relaxed">
                                 তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ <br>
                                 আইসিটি টাওয়ার, আগারগাঁও, ঢাকা-১২০৭, বাংলাদেশ <br><br>
                                 ফোন: +৮৮-০২-৪১০২৪২২২ <br>
@@ -668,11 +676,40 @@
                 </div>
 
 
-                <div class="border-t py-8 text-center text-sm ">© 2021 - Present Flowrift. All rights
-                    reserved.
+                <div class="border-t border-white border-opacity-30">
+                    <div class="">
+                        <div class="flex flex-col md:flex-row items-center justify-between gap-4 py-4">
+                            <div class="flex items-center gap-4">
+                                <p class="whitespace-nowrap">কারিগরি সহায়তায়:</p>
+                                <a href="#" target="_blank"
+                                    class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+                                    <img src="./images/image_one.svg" class="w-[76px] h-[41px]" />
+                                </a>
+
+                                <a href="#" target="_blank"
+                                    class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+                                    <img src="./images/image_two.svg" class="w-[76px] h-[41px]" />
+                                </a>
+
+                                <a href="#" target="_blank"
+                                    class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+                                    <img src="./images/image_three.svg" class="w-[76px] h-[41px]" />
+                                </a>
+                            </div>
+                            <span class="text-sm text-gray-400">পরিকল্পনা ও বাস্তবায়নে: <span
+                                    class="underline cursor-pointer">মন্ত্রিপরিষদ
+                                    বিভাগ</span>, <span class="underline cursor-pointer">এটুআই</span>, <span
+                                    class="underline cursor-pointer">বিসিসি</span></span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class=" bg-[#536967]  ">
+                <div class="container text-center text-sm flex flex-col sm:flex-row items-center justify-between py-4">
+                    <span class="opacity-65">গোপনীয়তার নীতিমালা</span>
+                    <span class="opacity-65">ব্যবহারের শর্তাবলি</span>
+                </div>
+            </div>
     </footer>
 
 
